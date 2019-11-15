@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/favicon.ico" />
+  <title>Vue REST</title>
+</head>
+
+<body>
+  <div id="app">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h1>Find a city in Utah</h1>
+          <form v-on:keyup.prevent="fetchREST">
+            <input id="cityfield" type="text" v-model="prefix">
+          </form>
+          <div id="list">
+            <ul>
+              <li v-for="item in cities">
+                {{ item.name }}
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <h1>Define a word</h1>
+          <form v-on:keyup.prevent="fetchProxy">
+            <input id="deffield" type="text" v-model="prefix2">
+          </form>
+          <div id="list">
+            <ul>
+              <li v-for="item in definition">
+                {{ item.text }}
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div> 
+    
+    
+    
+  </div>
+  
+  <div class="footer">
+    <footer>
+      <hr>
+      <p><a href="https://github.com/BYUCS260/lab-4-node-EarthBoundNess">GitHub repo</a></p>
+    </footer>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="javascripts/script.js"></script>
+</body>
+
+</html>

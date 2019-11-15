@@ -1,0 +1,99 @@
+nohup: ignoring input
+[0mGET / [36m304 [0m5.849 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.830 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.423 ms - -[0m
+[0mGET /getcity?q=P [36m304 [0m4.594 ms - -[0m
+[0mGET /getcity?q=P [32m200 [0m0.829 ms - 304[0m
+[0mGET /getcity?q=Pr [36m304 [0m0.694 ms - -[0m
+In owl
+In owl
+In owl
+In owl
+[0mGET /owlPath?q=D [33m404 [0m235.562 ms - 32[0m
+[0mGET /owlPath?q=D [33m404 [0m259.574 ms - 32[0m
+[0mGET /owlPath?q=Do [32m200 [0m268.407 ms - 1309[0m
+[0mGET /owlPath?q=Dog [32m200 [0m270.138 ms - 237[0m
+[0mGET / [32m200 [0m2.293 ms - 1959[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.564 ms - 1085[0m
+[0mGET /javascripts/script.js [32m200 [0m0.366 ms - 1110[0m
+[0mGET / [36m304 [0m0.390 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.377 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.339 ms - -[0m
+[0mGET /getcity?q=P [36m304 [0m0.724 ms - -[0m
+[0mGET /getcity?q=P [32m200 [0m5.330 ms - 304[0m
+[0mGET /getcity?q=Pr [36m304 [0m0.650 ms - -[0m
+In owl
+In owl
+[0mGET /owlPath?q=D [33m404 [0m221.768 ms - 32[0m
+[0mGET /owlPath?q=D [33m404 [0m178.415 ms - 32[0m
+In owl
+In owl
+[0mGET /owlPath?q=Def [32m200 [0m266.271 ms - 79[0m
+[0mGET /owlPath?q=Def [32m200 [0m254.579 ms - 79[0m
+In owl
+In owl
+In owl
+[0mGET /owlPath?q=Defin [33m404 [0m216.493 ms - 32[0m
+[0mGET /owlPath?q=Define [32m200 [0m302.155 ms - 268[0m
+[0mGET /owlPath?q=Define [32m200 [0m293.577 ms - 268[0m
+[0mGET / [32m200 [0m0.623 ms - 1959[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.506 ms - 1085[0m
+[0mGET /javascripts/script.js [32m200 [0m0.436 ms - 1110[0m
+[0mGET /favicon.ico [33m404 [0m6.055 ms - 876[0m
+[0mGET /getcity?q=P [32m200 [0m0.641 ms - 304[0m
+[0mGET /getcity?q=P [36m304 [0m0.656 ms - -[0m
+[0mGET /getcity?q=Pr [32m200 [0m0.631 ms - 57[0m
+[0mGET /getcity?q=Pro [32m200 [0m0.700 ms - 40[0m
+[0mGET /getcity?q=Pr [36m304 [0m0.653 ms - -[0m
+[0mGET /getcity?q=P [36m304 [0m0.671 ms - -[0m
+[0mGET /getcity?q= [32m200 [0m0.799 ms - 5080[0m
+[0mGET /getcity?q= [36m304 [0m0.727 ms - -[0m
+[0mGET /getcity?q=I [32m200 [0m0.684 ms - 36[0m
+[0mGET /getcity?q=I [36m304 [0m0.581 ms - -[0m
+[0mGET /getcity?q= [36m304 [0m0.745 ms - -[0m
+In owl
+[0mGET /owlPath?q= [32m200 [0m178.649 ms - -[0m
+In owl
+In owl
+[0mGET /owlPath?q=asd [33m404 [0m204.169 ms - 32[0m
+[0mGET /? [32m200 [0m0.429 ms - 1959[0m
+[0mGET /owlPath?q=asdf [33m404 [0m209.287 ms - 32[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.357 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.307 ms - -[0m
+In owl
+In owl
+[0mGET /owlPath?q=H [32m200 [0m253.227 ms - 82[0m
+[0mGET /? [36m304 [0m0.671 ms - -[0m
+In owl
+[0mGET /owlPath?q=H [0m- [0m- ms - -[0m
+[0mGET /owlPath?q=Hi [0m- [0m- ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.472 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.305 ms - -[0m
+In owl
+In owl
+[0mGET /owlPath?q=H [32m200 [0m258.777 ms - 82[0m
+In owl
+[0mGET /owlPath?q=Hi [32m200 [0m230.172 ms - 146[0m
+[0mGET /owlPath?q=H [32m200 [0m225.412 ms - 82[0m
+In owl
+In owl
+[0mGET /owlPath?q=H [32m200 [0m238.805 ms - 82[0m
+[0mGET /owlPath?q= [32m200 [0m110.443 ms - -[0m
+In owl
+[0mGET /owlPath?q=O [33m404 [0m195.334 ms - 32[0m
+In owl
+In owl
+[0mGET /owlPath?q=O [33m404 [0m188.613 ms - 32[0m
+In owl
+[0mGET /owlPath?q=Or [32m200 [0m200.119 ms - 192[0m
+In owl
+[0mGET /owlPath?q=Ora [33m404 [0m193.072 ms - 32[0m
+In owl
+[0mGET /owlPath?q=Orang [32m200 [0m265.684 ms - 58[0m
+[0mGET /owlPath?q=Orange [32m200 [0m257.002 ms - 241[0m
+In owl
+[0mGET /owlPath?q=Orange [32m200 [0m233.174 ms - 241[0m
+In owl
+[0mGET /owlPath?q=Orang [32m200 [0m238.238 ms - 58[0m
+In owl
+[0mGET /owlPath?q= [32m200 [0m118.995 ms - -[0m
