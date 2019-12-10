@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+  <title>Shopping site</title>
+</head>
+
+<body>
+  <div id="admin" class="content">
+    <h1>Store Management Interface</h1>
+    <div class="add">
+      <div class="form">
+        <input v-model="name" type="text" placeholder="Product Name">
+        <p></p>
+        <input v-model="price" type="number" min="0" placeholder="Price">
+        <p></p>
+        <input v-model="url"  type="url" placeholder="Picture URL">
+        <button @click="upload">Add Product</button>
+      </div>
+      <div class="upload" v-if="addItem">
+        <p>{{addItem.name}} - price ${{addItem.price}} - ordered {{addItem.sales}} <img :src="addItem.url" /><br> </p>
+      </div>
+    </div>
+    <h2>Current Products</h2>
+    <div class="edit">
+      <div class="image" v-for="item in items">
+        <p><button @click="deleteItem(item)">x</button> {{item.name}} - price ${{item.price}} - ordered {{item.sales}} <img :src="item.url" /></p><br>
+      </div>
+    </div>
+  </div>
+  <br><p><a href=".">Back</a></p>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.7/vue.js" integrity="sha256-g+Q8DFAmG5+eyRPSydX0LY4TfjsL11XSDrIGerbbEdA=" crossorigin="anonymous"></script>
+  <script src="/admin.js"></script>
+</body>
+
+</html>

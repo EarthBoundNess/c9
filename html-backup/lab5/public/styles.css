@@ -26,14 +26,35 @@ body {
   border-top: 1px solid #000;
 }
 
+p {
+  color: gray;
+  overflow-wrap: break-word;
+}
+
 /* Footer */
-.footer {
-  height: 50px;
-  padding: 20px 100px 0px 100px;
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 14px 16px;
+    overflow: hidden;
+    text-align: center;
+}
+
+a {
+    color: gray;
+    padding: 20px 100px;
+    text-decoration: none;
 }
 
 .footer a {
-  color: #000;
+    text-align: center;
+}
+
+a:hover {
+    color: black;
 }
 
 /* Content */
