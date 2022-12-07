@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/BYUCS260/midterm-2-EarthBoundNess#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "mongoose": "^5.7.12",
     "multer": "^1.4.2"
   }
